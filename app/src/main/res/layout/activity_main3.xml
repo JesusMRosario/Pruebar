@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="#FFEB3B">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GO GO GYM"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bienvenid@"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <ImageButton
+                android:id="@+id/btnperfil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"
+                app:srcCompat="@drawable/perfil" />
+
+            <ImageButton
+                android:id="@+id/btnentrenar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_light"
+                app:srcCompat="@drawable/musculo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btneditar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_purple"
+                app:srcCompat="@drawable/lapiz" />
+
+            <ImageButton
+                android:id="@+id/btnlogros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_dark"
+                app:srcCompat="@drawable/medalla" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="40dp">
+
+            <ImageButton
+                android:id="@+id/btnplaylist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"
+                app:srcCompat="@drawable/musica" />
+
+            <ImageButton
+                android:id="@+id/btnajustes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"
+                app:srcCompat="@drawable/tuerca2" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btncerrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:text="CERRAR SESIÓN"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Gogogym</string>
+
+    <string-array name="paises">
+        <item>No Especifica</item>
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brasil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>España</item>
+        <item>Estados Unidos</item>
+        <item>Mexico</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Uruguay</item>
+        <item>Venezuela</item>
+    </string-array>
+
+</resources>

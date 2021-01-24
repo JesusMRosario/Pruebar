@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:background="#FFEB3B">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INICIAR SESIÓN"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="70dp"/>
+
+        <EditText
+            android:id="@+id/txtlogcor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CORREO ELECTRÓNICO"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtlogcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="CONTRASEÑA"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_light"
+            android:text="LISTO"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/tv13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btngooglog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:text="INICIAR SESIÓN CON GOOGLE"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="80dp"/>
+
+        <ImageButton
+            android:id="@+id/btnlogback"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@android:color/holo_red_light"
+            app:srcCompat="@drawable/flechatras" />
+
+    </LinearLayout>
+</ScrollView>
